@@ -18,6 +18,10 @@ body{
   background-color: var(--primary-color);
 }
 
+/* .active{
+  color: var(--secondary-color);
+} */
+
 /* Navigation */
 
 .logo{
@@ -111,11 +115,31 @@ body{
 
 /* slider */
 
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  
+  width: 90%;
+  height: 75vh;
+  margin: 1rem auto;
+}
+
+.slider1{
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
 
 
-
-
-
+.slider2{
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
 
 
 
