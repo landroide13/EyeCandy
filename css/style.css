@@ -80,11 +80,12 @@ body{
 
 .footer footer ul{
   display: flex;
+  justify-content: space-between;
 }
 
 .footer footer h3{
   color: var(--secondary-color);
-  margin-left: 5rem;
+  margin-left: 1rem;
   font-weight: 400;
 }
 
@@ -99,10 +100,14 @@ body{
   color: var(--secondary-color);
 }
 
+.footer footer ul.social h3{
+  margin-left: 2rem;
+}
+
 .footer footer ul.social i{
   text-decoration: none;
   color: var(--white);
-  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .footer footer ul.social i:hover{
@@ -110,10 +115,10 @@ body{
 }
 
 .footer footer ul.social{
-  margin-right: 25rem;
+  margin-right: 35rem;
 }
 
-/* slider */
+/* sliders */
 
 .slider-container{
   display: flex;
@@ -141,6 +146,16 @@ body{
   margin-bottom: 1rem;
 }
 
+.slide .content{
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+}
 
 
 
