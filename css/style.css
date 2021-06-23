@@ -13,14 +13,16 @@
   --white: #fff;
 }
 
+html, body{
+  height: 100%;
+}
+
 body{
+  display: flex;
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   background-color: var(--primary-color);
 }
-
-/* .active{
-  color: var(--secondary-color);
-} */
 
 /* Navigation */
 
@@ -73,7 +75,8 @@ body{
 
 .footer footer{
   background-color: var(--third-color);
-  position: absolute;
+  /* position: absolute; */
+  flex-shrink: 0;
   width: 100%;
   height: 10vh;
   bottom: 0;
@@ -164,6 +167,19 @@ body{
   color: #333;
   padding: 35px;
 }
+
+
+
+/* Containers */
+
+.text-container{
+  flex: 1 0 auto;
+}
+
+
+
+
+
 
 
 
