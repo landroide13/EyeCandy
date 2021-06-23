@@ -40,6 +40,10 @@ body{
   justify-content: space-between;
 }
 
+.navigation nav ul li a.active{
+  color: var(--secondary-color);
+}
+
 .navigation nav ul{
   display: flex;
   list-style: none;
@@ -94,6 +98,10 @@ body{
   list-style: none;
   text-decoration: none;
   margin-right: 4rem;
+}
+
+.footer footer ul li a.active{
+  color: var(--secondary-color);
 }
 
 .footer footer ul li a:hover{
