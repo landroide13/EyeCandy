@@ -200,11 +200,72 @@ body{
   margin: 2rem auto;
   flex: 1 0 auto;
 }
-
 .movies-container h2{
   color: var(--white);
   font-weight: 300;
 }
+
+.play-on{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 95%;
+}
+
+.on-welli{
+  width: 50%;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.on-welli h4{
+  color: var(--white);
+  font-weight: 300;
+}
+
+.on-auck{
+  width: 50%;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.on-auck h4{
+  color: var(--white);
+  font-weight: 300;
+}
+
+.movie-text-container{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.movie-card{
+  width: 100%;
+  margin: 2rem auto;
+  padding: .5rem auto;
+  box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2);
+
+  display: flex;
+}
+
+.movie-card img{
+  width: 50%;
+}
+
+.movie-card p, span{
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.movie-card h6{
+  color: var(--white);
+}
+
 
 /* Cinemas */
 
