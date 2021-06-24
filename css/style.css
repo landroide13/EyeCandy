@@ -132,12 +132,20 @@ body{
 /* sliders */
 
 .slider-container{
+  flex: 1 0 auto;
+
   display: flex;
   flex-direction: column;
   
   width: 90%;
   height: 75vh;
   margin: 1rem auto;
+}
+
+.slider-container h2{
+  color: var(--white);
+  font-weight: 300;
+  font-size: 2rem;
 }
 
 .slider1{
@@ -168,21 +176,55 @@ body{
   padding: 35px;
 }
 
-
-
 /* Containers */
 
 .text-container{
+  width: 70%;
+  font-size: 1.5rem;
+  margin: 2rem auto;
   flex: 1 0 auto;
 }
 
+.text-container h2{
+  color: var(--white);
+  font-weight: 300;
+}
 
 
+.movies-container{
+  width: 70%;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  flex: 1 0 auto;
+}
+
+.movies-container h2{
+  color: var(--white);
+  font-weight: 300;
+}
 
 
+.cinemas-container{
+  width: 70%;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  flex: 1 0 auto;
+}
 
+.cinemas-container h2{
+  color: var(--white);
+  font-weight: 300;
+}
 
+.schedule-container{
+  width: 70%;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  flex: 1 0 auto;
+}
 
-
-
+.schedule-container h2{
+  color: var(--white);
+  font-weight: 300;
+}
 
