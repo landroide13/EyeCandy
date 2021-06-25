@@ -252,8 +252,17 @@ body{
   display: flex;
 }
 
+.movie-card:hover{
+  border: var(--white) solid 3px;
+  transition: .5s;
+}
+
 .movie-card img{
   width: 50%;
+  height: 75%;
+
+  margin: 0.5rem .5rem; 
+  padding: 0 auto;
 }
 
 .movie-card p, span{
