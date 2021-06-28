@@ -191,6 +191,11 @@ body{
   font-size: 1rem;
 }
 
+.privacy-text{
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
 .text-card{
   margin: 2rem auto;
 }
@@ -267,6 +272,24 @@ body{
   flex-direction: column;
 
   width: 100%;
+}
+
+.movie-text-container button a{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+  padding: 1rem auto;
+}
+
+.movie-text-container button a:hover{
+  color: var(--secondary-color);
+}
+
+.movie-text-container button{
+  background-color: var(--third-color);
+  width: 50%;
+  margin: 1rem auto;
+  border: none;
 }
 
 .movie-card{
@@ -371,6 +394,9 @@ body{
   font-size: 1.5rem;
   margin: 2rem auto;
   flex: 1 0 auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .schedule-container h2{
@@ -378,11 +404,65 @@ body{
   font-weight: 300;
 }
 
+.schedule-container table th{
+  background: var(--third-color);
+  color: var(--white);
+  font-weight: 200;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
+.schedule-container table td{
+  color: var(--white);
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center
+}
 
+.schedule-container table td a{
+  text-decoration: none;
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-weight: 300;
+}
 
+.schedule-container table td a:hover{
+  color: var(--white);
+  font-size: 1.2rem;
+  transition: .4s;
+}
 
+.table-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
+.table-1{
+  margin: 1.5rem 2rem;
+  padding: 1.5rem auto;
+}
+
+.table-2{
+  margin: 1.5rem 2rem;
+  padding: 1.5rem auto;
+}
+
+.table-1 h4{
+  text-align: center;
+  color: var(--white);
+  font-weight: 200;
+}
+
+.table-2 h4{
+  text-align: center;
+  color: var(--white);
+  font-weight: 200;
+}
+
+.black{
+  background-color: var(--third-color);
+}
 
 
 
