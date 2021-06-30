@@ -274,6 +274,10 @@ body{
   margin: .4rem auto;
 }
 
+.privacy-text .form-card form input{
+  height: 2rem;
+}
+
 .privacy-text .form-card form label{
   color: var(--white);
 }
