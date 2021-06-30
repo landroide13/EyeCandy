@@ -188,17 +188,52 @@ body{
   padding: 35px;
 }
 
+.slide2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4 ease-in-out;
+}
+
+.slide2 .content2{
+  position: absolute;
+  top: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+}
+
 .slide .content h3, h1{
   margin-bottom: 10px;
 }
 
-.slide.current .content {
+.slide.current .content{
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.slide2 .content2 h3, h1{
+  margin-bottom: 10px;
+}
+
+.slide2.current .content2 {
   opacity: 1;
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
 
 .slide.current{
+  opacity: 1
+}
+
+.slide2.current{
   opacity: 1
 }
 
@@ -222,6 +257,18 @@ body{
 
 .slide:nth-child(4) {
   background: url('../img/conjuring.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slide2:first-child{
+  background: url('../img/pop1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slide2:nth-child(2) {
+  background: url('../img/beb1.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

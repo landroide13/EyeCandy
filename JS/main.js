@@ -1,4 +1,5 @@
 const slides = document.querySelectorAll(".slide");
+const slides2 = document.querySelectorAll(".slide2");
 const auto = true;
 const inter = 3000;
 
@@ -12,6 +13,7 @@ const nextSlide = () => {
     current.nextElementSibling.classList.add("current");
   } else {
     slides[0].classList.add("current");
+    slides2[0].classList.add("current");
   }
   setTimeout(() => current.classList.remove("current"));
 };
@@ -19,9 +21,5 @@ const nextSlide = () => {
 if (auto) {
   slideInter = setInterval(nextSlide, inter);
 }
-
-
-
-
 
 
