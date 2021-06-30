@@ -244,6 +244,47 @@ body{
   padding: 1rem;
 }
 
+.flex-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card{
+  width: 75%;
+  height: 55%;
+  margin: 1rem auto;
+  padding: 1rem auto;
+  box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2);
+}
+
+.flex-form button a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--white);
+  padding: .5rem auto;
+  cursor: pointer;
+}
+
+.flex-form button a:hover{
+  color: var(--secondary-color);
+}
+
+.privacy-text .form-card form input, label, textarea{
+  width: 85%;
+  margin: .4rem auto;
+}
+
+.privacy-text .form-card form label{
+  color: var(--white);
+}
+
+.privacy-text .form-card form button{
+  width: 30%;
+  margin: .5rem auto;
+  background-color: var(--third-color);
+}
+
+
 .text-card{
   margin: 2rem auto;
 }
@@ -512,6 +553,9 @@ body{
   background-color: var(--third-color);
 }
 
+.center{
+  text-align: center;
+}
 
 
 
