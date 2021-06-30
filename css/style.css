@@ -269,6 +269,11 @@ body{
   color: var(--secondary-color);
 }
 
+.flex-form button:hover{
+  border: var(--white) solid 2px;
+  transition: .5s;
+}
+
 .privacy-text .form-card form input, label, textarea{
   width: 85%;
   margin: .4rem auto;
