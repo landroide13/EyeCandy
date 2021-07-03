@@ -26,7 +26,7 @@ if (auto) {
 
 const slides2 = document.querySelectorAll(".slide2");
 const on = true;
-const t = 3000;
+const t = 4000;
 
 let frec;
 

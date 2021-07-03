@@ -11,6 +11,9 @@
   --secondary-color: rgb(233, 161, 173);
   --third-color:rgb(22, 21, 21);
   --white: #fff;
+  --shadow: rgba(250, 248, 248, 0.2);
+  --shadow2:rgba(247, 241, 241, 0.2);
+  --content-slide:rgba(255, 255, 255, 0.8);
 }
 
 html, body{
@@ -183,7 +186,7 @@ body{
   left: -600px;
   opacity: 0;
   width: 600px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--content-slide);
   color: #333;
   padding: 35px;
 }
@@ -204,7 +207,7 @@ body{
   left: -600px;
   opacity: 0;
   width: 600px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--content-slide);
   color: #333;
   padding: 35px;
 }
@@ -305,7 +308,7 @@ body{
   height: 55%;
   margin: 1rem auto;
   padding: 1rem auto;
-  box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2);
+  box-shadow: 0 4px 8px 0 var(--shadow2);
 }
 
 .flex-form button a{
@@ -446,7 +449,7 @@ body{
   height: 55%;
   margin: 2rem auto;
   padding: .5rem auto;
-  box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2);
+  box-shadow: 0 4px 8px 0 var(--shadow2);
 
   display: flex;
 }
@@ -495,7 +498,7 @@ body{
   width: 41%;
   margin:2rem auto;
 
-  box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2);
+  box-shadow: 0 4px 8px 0 var(--shadow2);
 
   display: flex;
   flex-direction: column;
@@ -515,7 +518,7 @@ body{
   width: 41%;
   margin:2rem auto;
 
-  box-shadow: 0 4px 8px 0 rgba(247, 241, 241, 0.2);
+  box-shadow: 0 4px 8px 0 var(--shadow2);
 
   display: flex;
   flex-direction: column;
